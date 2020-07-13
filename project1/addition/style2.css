@@ -1,0 +1,24 @@
+#inputrow {
+	background-color: purple;
+}
+
+#submitbutton {
+	background-color: white;
+}
+#guess {
+	font-size: 50px;
+	color: pink;
+	
+}
+
+body {
+	background-color: purple;
+}
+.wrong {
+	color: red;
+	font-size: 30px;
+}
+.right {
+	color: green;
+	font-size: 60px;
+}
