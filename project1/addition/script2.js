@@ -15,7 +15,7 @@ $("#submitbutton").on("click",function(){
    
 });
 
-//i use jquery,when the html page finish to loading this function gonna work. 
+//when the html page finish to loading this function gonna work. 
 $(document).ready(function(){
   num1= document.getElementById("num1");
   num2= document.getElementById("num2");
