@@ -8,7 +8,6 @@ $("#submitbutton").on("click",function(){
   pass.push(document.getElementById("inputfield").value);
     if(pass.length === 3){
       alert("you answer at 3 question you can pass")
-      window.location.href = "file:///C:/Users/Toshiba/Desktop/project1/substraction/index.html";
     }
    
 });
@@ -24,13 +23,13 @@ setNumbers();
 });
 function setNumbers(){
   num1.innerHTML=Math.floor(Math.random()* 10) + 1;
-  num2.innerHTML=Math.floor(Math.random()* 10) + 1; 
+  num2.innerHTML=2; 
 }
 function checkAnswer(){
   var n1 = parseInt(num1.innerHTML);
   var n2 = parseInt(num2.innerHTML);
   answer = n1 / n2;
-  if(parseInt(guess.value)=== answer){
+  if(parseInt(guess.value)=== Math.random(answer){
     response.innerHTML="<div class='right'>good!</div>";
     setNumbers();
   }

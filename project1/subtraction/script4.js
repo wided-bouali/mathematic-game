@@ -1,15 +1,13 @@
 var num1;
 var num2;
 var guess;
-var num1;
-var num2;
-var guess;
 var answer;
 var response;
+var pass= [];
 $("#submitbutton").on("click",function(){
   pass.push(document.getElementById("inputfield").value);
     if(pass.length === 3){
-      alert("you guesed 3 right congratulations")
+      alert("you answer at 3 question you can pass")
     }
    
 });

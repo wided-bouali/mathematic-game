@@ -5,7 +5,7 @@ var guess;
 var answer;
 var response;
 var pass= [];
-// i use here if condition with alert ;if we answer at 3 question it will give us an alert and mouve automaticly to the next challenge.
+// i use here if condition with alert ;if we answer at 3 question it will give us an alert and mouve automaticly to the next challenge with window.location.
 $("#submitbutton").on("click",function(){
 	pass.push(document.getElementById("inputfield").value);
     if(pass.length === 3){
